@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+</head>
+
+<body>
+    <section id="calculator">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 left-menu">
+
+                    <div class="radio-buttons">
+                        <div class="first-radio">
+                            Какое количество рабочих мест планируется?
+
+                            <div class="radios">
+                                <input aria-checked="false" type="radio" name="first-rd" id="till5" />
+                                До 5
+                                <input aria-checked="false" type="radio" name="first-rd" id="till20"
+                                    class="radio-btn" />
+                                От 6 до 20
+                                <input aria-checked="false" type="radio" name="first-rd" id="more20"
+                                    class="radio-btn" />
+                                Свыше 20
+                            </div>
+                        </div>
+                        <div class="second-radio">
+                            Сколько часов в день будут использоваться программы с видео-контентом?
+
+                            <div class="radios">
+                                <input aria-checked="false" type="radio" name="second-rd" id="till2" />
+                                До 2
+                                <input aria-checked="false" type="radio" name="second-rd" id="till10" class="radio-btn" />
+                                От 2 до 5
+                                <input aria-checked="false" type="radio" name="second-rd" id="more5" class="radio-btn" />
+                                Свыше 5
+                            </div>
+                        </div>
+                        <div class="third-radio">
+                            Пользуетесь или планируете ли работать с Web CRM/ERP системой?
+
+                            <div class="radios">
+                                <input aria-checked="false" type="radio" name="third-rd" id="yes" />
+                                Да
+                                <input aria-checked="false" type="radio" name="third-rd" id="no" class="radio-btn" />
+                                Нет
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="switch-buttons">
+                        Какими сервисами ваша компания пользуется либо планирует пользоваться?
+
+                        <div class="first-switch">
+                            <label role="switch" class="switch">
+                                <input type="checkbox" aria-checked="false">
+                                <span class="slider round"></span>
+                            </label>
+                            Виртуальная ATC
+                        </div>
+                        <div class="second-switch">
+                            <label role="switch" class="switch">
+                                <input type="checkbox" aria-checked="false">
+                                <span class="slider round"></span>
+                            </label>
+                            IP Телевидение
+                        </div>
+                        <div class="third-switch">
+                            <label role="switch" class="switch">
+                                <input type="checkbox" aria-checked="false">
+                                <span class="slider round"></span>
+                            </label>
+                            Видеонаблюдения
+                        </div>
+                        <div class="fourth-switch">
+                            <label role="switch" class="switch">
+                                <input type="checkbox" aria-checked="false">
+                                <span class="slider round"></span>
+                            </label>
+                            Wifi для гостей
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-5 right-menu">
+
+                    <div class="speed-block">
+                        Рекомендуемая скорость
+
+                        <div class="speed">
+                            <div class="speed-ind">
+
+                            </div>
+                            <button class="speed-btn" type="submit">Оставить заявку</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
